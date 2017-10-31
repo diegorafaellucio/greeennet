@@ -9,7 +9,7 @@ layer {
   }
   data_param {
     source: "/home/diego/Experimentos/Tests/fold1/data/train_lmdb"
-    batch_size: 16
+    batch_size: 128
     backend: LMDB
   }
 }
@@ -23,7 +23,7 @@ layer {
   }
   data_param {
     source: "/home/diego/Experimentos/Tests/fold1/data/train_lmdb"
-    batch_size: 2
+    batch_size: 64
     backend: LMDB
   }
 }

@@ -6,17 +6,17 @@ set -e
 
 EXAMPLE=/home/diego/Experimentos/Tests/fold$1/data
 DATA=/home/diego/Experimentos/Tests/fold$1
-TOOLS=/home/diego/frameworks/caffe/build/tools
+TOOLS=/home/diego/caffe/build/tools
 
 TRAIN_DATA_ROOT=/
 VAL_DATA_ROOT=/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
-RESIZE=false
+RESIZE=true
 if $RESIZE; then
   RESIZE_HEIGHT=256
-  RESIZE_WIDTH=256
+  RESIZE_WIDTH=405
 else
   RESIZE_HEIGHT=0
   RESIZE_WIDTH=0

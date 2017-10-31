@@ -4,7 +4,7 @@
 
 EXAMPLE=/home/diego/Experimentos/Tests/fold$1/data
 DATA=/home/diego/Experimentos/Tests/fold$1
-TOOLS=/home/diego/frameworks/caffe/build/tools
+TOOLS=/home/diego/caffe/build/tools
 
 $TOOLS/compute_image_mean $EXAMPLE/train_lmdb \
   $DATA/imagenet_mean.binaryproto

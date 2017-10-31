@@ -8,8 +8,8 @@ layer {
     phase: TRAIN
   }
   data_param {
-    source: "/home/diego/Experimentos/Tests/fold1/data/train_lmdb"
-    batch_size: 16
+    source: "/home/diego/Experimentos/Tests/fold3/data/train_lmdb"
+    batch_size: 128
     backend: LMDB
   }
 }
@@ -22,8 +22,8 @@ layer {
     phase: TEST
   }
   data_param {
-    source: "/home/diego/Experimentos/Tests/fold1/data/train_lmdb"
-    batch_size: 2
+    source: "/home/diego/Experimentos/Tests/fold3/data/train_lmdb"
+    batch_size: 64
     backend: LMDB
   }
 }
