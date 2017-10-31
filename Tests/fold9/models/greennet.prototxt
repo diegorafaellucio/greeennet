@@ -30,7 +30,7 @@ layer {
   }
   data_param {
     source: "/home/diego/Experimentos/Tests/fold9/data/train_lmdb"
-    batch_size: 2
+    batch_size: 4
     backend: LMDB
   }
 }
