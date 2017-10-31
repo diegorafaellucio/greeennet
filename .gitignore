@@ -1,4 +1,6 @@
 *.png
 *.mdb
+*.caffemodel
+*.solverstate
 
 spectrograms/
